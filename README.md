@@ -11,8 +11,8 @@ A monitoring solution for Docker hosts and containers with [Prometheus](https://
 Clone this repository on your Docker host, cd into dockprom directory and run compose up:
 
 ```bash
-git clone https://github.com/stefanprodan/dockprom
-cd dockprom
+git clone https://github.com/adavarski/docker-prometheus-grafana-nodeexporter
+cd docker-prometheus-grafana-nodeexporter
 
 ADMIN_USER=admin ADMIN_PASSWORD=admin docker-compose up -d
 ```
